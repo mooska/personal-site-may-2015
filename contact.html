@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Ryan C Atkins | Contact</title>
+    <meta name="keywords" content="ryan, atkins, columbus, web, dev, developer, ohio, contact, portfolio, gallipolis">
+    <meta name="description" content="Contact Ryan C Atkins">
+</head>
+
+<body id="contact-body">
+    <div class="page-wrapper">
+        <header>
+            <div class="nav-bar">
+                <a href="http://www.ryancatkins.com"><h1>RYAN C ATKINS</h1></a>
+                <ul class="full-nav-links">
+                    <li><a href="about">About</a>
+                    </li>
+                    <li><a href="resume">Resume</a>
+                    </li>
+                    <!--                        <li><a href="index.html">Portfolio</a></li>-->
+                    <li><a class="selected" href="contact">Contact</a>
+                    </li>
+                </ul>
+                <div id="plastic-tray">
+                    <a href="#">
+                        <div class="cool-burgex">
+                            <span id="foil-wrap"></span>
+                            <span class="bread" id="top-bun"></span>
+                            <span id="meat"></span>
+                            <span class="bread" id="bottom-bun"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-panel">
+                <ul>
+                    <li><a href="about">About</a>
+                    </li>
+                    <li><a href="resume">Resume</a>
+                    </li>
+                    <!--<li><a href="index.html">Portfolio</a></li>-->
+                    <li><a href="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="form-panel">
+            <a href="#"><img src="assets/images/icons/formX.png" alt="contact form exit">
+            </a>
+            <form action="//formspree.io/contact@ryancatkins.com" method="post" id="my-form">
+                <span>Name:</span>
+                <input id="name" name="name" type="text">
+                <br>
+                <span class="valid-message"></span>
+                <br>
+                <span>Subject:</span>
+                <input id="subject" type="text" name="_subject">
+                <br>
+                <span class="valid-message"></span>
+                <br>
+                <span>E-mail:</span>
+                <input id="email" placeholder=" name@email.com" type="email" name="_replyto">
+                <br>
+                <span class="valid-message">Please enter valid email.</span>
+                <br>
+                <textarea id="message" name="message" form="my-form"></textarea>
+                <br>
+                <span class="valid-message"></span>
+                <br>
+                <button type="submit">Send</button>
+                <input type="hidden" name="_next" value="sent.html" />
+            </form>
+        </div>
+        <div class="top-center-div">
+            <div class="table-display" id="filter-div">
+                <div class="table-grid-display">
+                    <h3></h3><span class="tag">Lets talk</span>
+                    <br>
+                    <a href="#"><span class="button" id="contact-button">Contact</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="second-center-div">
+            <div class="second-center-container">
+                <p>I'm also a mildly-active social media-ist... media-er... I'm on social media...
+                </p>
+                <div id="social-div">
+                    <a href="https://instagram.com/m00ska/">
+                        <img src="assets/images/icons/instagram.png" alt="instagram link button">
+                    </a>
+                    <a href="https://www.linkedin.com/pub/ryan-atkins/b6/aa3/226">
+                        <img src="assets/images/icons/linkedin.png" alt="linkin link button">
+                    </a>
+                    <a href="https://www.pinterest.com/m00ska/">
+                        <img src="assets/images/icons/pinterest.png" alt="pinterest link button">
+                    </a>
+                    <a href="https://twitter.com/m00ska">
+                        <img src="assets/images/icons/twitter.png" alt="twitter link button">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-div">
+                <a href="http://www.ryancatkins.com"><h1>RYAN C ATKINS</h1></a>
+                <p>&copy; Ryan C Atkins | 2015</p>
+            </div>
+        </footer>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
